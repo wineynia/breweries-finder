@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-main: "Merriweather", serif;
+
+  --plum: #8a4c6a;
+  --pink: #f2afcb;
+  --rose: #ce75a1;
+  --offwhite: #f8ffed;
+}
+
+body {
+  font-family: var(--font-main);
+  height: 100vh;
+  line-height: 1.5;
+}

@@ -1,0 +1,62 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: 
+    "logo text"
+    "nav nav";
+  align-items: center;
+  background-color: var(--pink);
+  border: 2px solid var(--rose);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.logo {
+  grid-area: logo;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.text {
+  grid-area: text;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: "Merriweather", serif;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 1rem;
+  font-weight: 300;
+  font-family: "Merriweather", serif;
+}
+
+nav {
+  grid-area: nav;
+}
+@media (min-width: 768px) {
+  .header {
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: "logo text nav";
+    gap: 1rem;
+    padding: 1.25rem;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+  }
+}

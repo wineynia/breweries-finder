@@ -1,0 +1,26 @@
+.card {
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 8px;
+  background: var(--plum);
+  transition: 0.2s ease;
+}
+
+.card:hover {
+  color: #a85c8f;
+  border: 2px solid #d46aa0;
+  background: #fff;
+}
+
+.type {
+  font-size: 0.9rem;
+  color: #d46aa0;
+  font-weight: 600;
+}
+
+.detailsLink {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: #a85c8f;
+  font-weight: 600;
+}

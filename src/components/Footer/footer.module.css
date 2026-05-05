@@ -1,0 +1,9 @@
+.footer {
+  position: sticky;
+  bottom: 0;
+  background: var(--pink);
+  border-top: 2px solid var(--rose);
+  color: var(--offwhite);
+  padding: 1rem;
+  text-align: center;
+}

@@ -1,0 +1,8 @@
+.section {
+  background-color: var(--rose);
+  background-size: cover;
+  background-position: center;
+  color: var(--offwhite);
+  min-height: 100vh;
+  padding: 3rem;
+}
