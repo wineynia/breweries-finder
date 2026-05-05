@@ -39,7 +39,7 @@ No API key required.
 
 ---
 
-## 📱 Responsive Design
+## Responsive Design
 The layout is built **mobile‑first**, then enhanced for larger screens.  
 The header and footer stay fixed, and cards are centered using CSS Grid.
 
@@ -47,7 +47,7 @@ Each page has its own background image for a more “app‑like” feel.
 
 ---
 
-## 📝 Notes
+## Notes
 This project was created for learning purposes.  
 The goal was to focus on:
 - clean component structure  
@@ -58,5 +58,5 @@ The goal was to focus on:
 
 ---
 
-## 📄 License
+## License
 This project is for educational use.
