@@ -26,9 +26,7 @@ export function useBrewery(id) {
   );
 
   useEffect(() => {
-    const controller = new AbortController();
-    fetchBrewery(controller.signal);
-    return () => controller.abort();
+    fetchBrewery();
   }, [fetchBrewery]);
 
   return { brewery, loading, error };

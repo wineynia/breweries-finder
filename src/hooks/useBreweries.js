@@ -23,9 +23,7 @@ export function useBreweries() {
   }, []);
 
   useEffect(() => {
-    const controller = new AbortController();
-    fetchBreweries(controller.signal);
-    return () => controller.abort();
+    fetchBreweries();
   }, [fetchBreweries]);
 
   return { breweries, loading, error };
